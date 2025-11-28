@@ -1,14 +1,16 @@
 # E-HealthCare Management System
 
 ![alt text](screenshots/main.png)
+
 ## Overview
+
 Console-based Java application for managing healthcare operations including patient
 registration, doctor management, appointment booking, and admin reporting. Built for
 Java course projects with full OOP implementation, data persistence, and collection-
 based data management.
 
-
 ## Features
+
 - **Patient Management**: Register new patients, view patient details
 - **Doctor Management**: Add/remove doctors, view doctor availability (5 slots max)
 - **Appointment System**: Book appointments with availability checks, view patient
@@ -29,6 +31,7 @@ Design: OOP (Encapsulation, Single Responsibility)
 ## Project Structure
 
 ![alt text](screenshots/project_structure.png)
+
 ## Installation & Setup
 
 ### Prerequisites
@@ -44,13 +47,15 @@ mkdir HealthcareManagement && cd HealthcareManagement
 mkdir -p src/main/{model,service,util} data
 ```
 
-2. **Copy all Java files to their respective `src/main/` packages
+2. **Copy all Java files to their respective `src/main/` packages**
 3. **Compile:**
 
 ```bash
 javac -d . src/main/**/*.java
 ```
+
 4. **Run**
+
 ```bash
 java main.HealthcareMain
 ```
